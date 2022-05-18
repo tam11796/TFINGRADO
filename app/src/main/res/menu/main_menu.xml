@@ -1,25 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="#CCBEA1"
+    android:background="#D39514"
     android:layout_width="match_parent">
 
     <item
         android:id="@+id/action_profile"
-        android:title="NOSOTROS"
+        android:title="INICIO"
         app:showAsAction="never">
 
     </item>
     <item
         android:id="@+id/action_save"
-        android:title="GUARDAR"
-        android:icon="@drawable/ic_baseline_save_alt_24"
+        android:title="INICIO"
+        android:icon="@drawable/home"
         app:showAsAction="ifRoom">
+    </item>
+    <item
+        android:id="@+id/action_compra"
+        android:title="INICIO"
+        android:icon="@drawable/cesta"
+        app:showAsAction="ifRoom">
+    </item>
+
+    <item
+        android:id="@+id/action_cesta"
+        android:title="MI PERFIL"
+        app:showAsAction="never">
+
+    </item>
+
+    <item
+        android:id="@+id/action_nosotros"
+        android:title=" SOBRE NOSOTROS"
+        app:showAsAction="never">
+
+    </item>
+    <item
+        android:id="@+id/action_chatea"
+        android:title=" CHATEA"
+        app:showAsAction="never">
 
     </item>
     <item
         android:id="@+id/action_salir"
-        android:title="SALIR"
+        android:title=" CERRAR SESION"
         app:showAsAction="never">
 
     </item>
